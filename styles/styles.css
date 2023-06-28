@@ -128,11 +128,11 @@
         display: flex;
         justify-content: center;
         list-style-type: none;
-        gap: 1em;
+        gap: 1.5em;
         margin: 2em 0;
     }
 
-    .lista__link{
+    .lista__link a{
         font-size: 16px;
         color: var(--branco-principal);
         text-decoration: none;
@@ -142,4 +142,8 @@
         font-size: 14px;
         color: var(--cinza-secundario);
         margin: 2em 4em;
+    }
+
+    .lista__link a:hover{
+        color: var(--botao-azul);
     }
